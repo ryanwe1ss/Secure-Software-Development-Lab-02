@@ -1,0 +1,11 @@
+[1] Upon opening project, in the Package Manager Console; type: "update-database".
+This will create the database with all required tables.
+
+[2] Run the project (either in debug or non-debug mode).
+All accounts will be seeded
+
+Test Plan:
+- Login to both the manager and employee accounts and test their permissions 
+by navigating to all function pages (CRUD)
+
+- Attempt adding employers
